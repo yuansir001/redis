@@ -1,0 +1,14 @@
+# 应用名称
+spring:
+  application:
+    name: demo
+
+  redis:
+    host: 39.107.230.218
+    port: 6379
+    database: 0
+    password: Ygh@1108.
+
+
+
+
