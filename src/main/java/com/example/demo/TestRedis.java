@@ -21,6 +21,7 @@ public class TestRedis {
     @Autowired
     RedisTemplate redisTemplate;
 
+
     @Autowired
     @Qualifier("ooxx")
     StringRedisTemplate stringRedisTemplate;

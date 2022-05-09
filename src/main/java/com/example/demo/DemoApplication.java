@@ -10,6 +10,7 @@ public class DemoApplication {
     public static void main(String[] args) {
         ConfigurableApplicationContext ctx = SpringApplication.run(DemoApplication.class, args);
         TestRedis redis = ctx.getBean(TestRedis.class);
+
         redis.test();
     }
 
